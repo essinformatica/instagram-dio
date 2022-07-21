@@ -30,10 +30,12 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 40rem;
 }
 
 .instagram-continue {
@@ -155,5 +157,8 @@ body {
     
     .group {
         border: 1px solid transparent;
+    }
+    .download{
+        flex-direction: column;
     }
 }
